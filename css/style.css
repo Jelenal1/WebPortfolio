@@ -3,7 +3,7 @@ body:not(.row, .fullheight, #sidebar, .timer, #countdowntimerlabel) {
     font-family: 'Corbel';
 }
 
-*:not(body, .navbar, .navbar li, .navbar li a, html, .row, .fullheight, #sidebar, .timer) {
+*:not(body, .navbar, .navbar li, .navbar li a, html, .row, .fullheight, #sidebar, .timer, .story) {
     margin-left: 10px;
 }
 
