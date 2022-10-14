@@ -1,5 +1,5 @@
 body:not(.active, .nav-link, footer) {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .active {
