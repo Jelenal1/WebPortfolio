@@ -1,6 +1,5 @@
-body{
-    font-family: sans-serif;
-    font-weight: lighter;
+body {
+    font-family: 'Corbel', sans-serif;
 }
 
 h1 {
@@ -11,12 +10,13 @@ h1 {
 .container {
     display: block;
     max-width: 600px;
-	width: 400px;
+    width: 400px;
     margin: 0 auto;
     padding: 20px;
 }
 
-p, a {
+p,
+a:not(.navbar, .navbar a, .navbar li) {
     color: gray;
     line-height: 1.7em;
     font-size: 13pt;
