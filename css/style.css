@@ -1,3 +1,7 @@
+body:not(.active, .nav-link, footer) {
+    margin-left: 10px;
+}
+
 .active {
     --bs-nav-pills-link-active-bg: blueviolet;
 }
