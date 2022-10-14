@@ -10,4 +10,6 @@
     color: rgba(137, 43, 226, 0.788);
 }
 
-body:not(.navbar)
+footer {
+    height: 50px;
+}
