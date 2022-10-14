@@ -1,5 +1,11 @@
-body:not(.active, .nav-link, footer) {
+body:not(.navbar, .active, .nav-link, footer) {
     margin-left: 15px;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: blueviolet;
+    font-family: 'Silkscreen';
 }
 
 .active {
@@ -10,10 +16,19 @@ body:not(.active, .nav-link, footer) {
     color: rgb(173, 86, 255);
 }
 
-.nav-link:hover {
-    color: rgba(137, 43, 226, 0.788);
+.nav-link:hover:not(.active) {
+    color: rgb(132, 0, 255);
+    transition: color 1s;
 }
 
 footer {
     height: 50px;
+}
+
+.navbar:focus {
+    color: white;
+}
+
+.container-fluid {
+    justify-content: unset !important;
 }
