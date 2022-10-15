@@ -9,8 +9,12 @@
     --bs-nav-pills-link-active-bg: blueviolet;
 }
 
-p {
-    color: blueviolet;
+p,
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(231, 205, 255);
     margin-left: 12px;
 }
 
