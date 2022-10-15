@@ -1,15 +1,17 @@
-body:not(.navbar, .active, .nav-link, footer) {
-    margin-left: 15px;
-}
-
 .navbar-brand,
 .navbar-brand:hover {
     color: blueviolet;
     font-family: 'Silkscreen';
+    font-size: 24px;
 }
 
 .active {
     --bs-nav-pills-link-active-bg: blueviolet;
+}
+
+p {
+    color: blueviolet;
+    margin-left: 12px;
 }
 
 .nav-link {
